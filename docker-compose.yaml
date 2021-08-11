@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  ros:
+    build:
+      context: ros
+    ports:
+      - 6080:80
+
